@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "101245909460",
+    "firebase_url": "https://sportapp-942bf.firebaseio.com",
+    "project_id": "sportapp-942bf",
+    "storage_bucket": "sportapp-942bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101245909460:android:2172f0fb73effb36",
+        "android_client_info": {
+          "package_name": "com.example.gebruiker.sportapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101245909460-4qctpmp2r7d5dm30ggi75cbp962rlmi6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gebruiker.sportapp",
+            "certificate_hash": "fe89af1816d95889769abbe2046a027c8c5a6d11"
+          }
+        },
+        {
+          "client_id": "101245909460-jdmaub762l5oh3oh8clfihtr5evdqgkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbmIaw3XHkMRBo1yYkU03wnw_FyDIOwZQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101245909460-jdmaub762l5oh3oh8clfihtr5evdqgkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

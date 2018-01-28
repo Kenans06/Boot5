@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gebruiker.sportapp.com.example.gebruiker.Events.MyEventDetails">
+
+    <TextView
+        android:id="@+id/myEventNaam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/eventName"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#880000" />
+
+
+    <TextView
+        android:id="@+id/myEventAdres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/event_location"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/eventAdres"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#9d9d9d" />
+
+    <TextView
+        android:id="@+id/myEventTijd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/event_time"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/time"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#9d9d9d" />
+
+    <TextView
+        android:id="@+id/myEventDatum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/event_date"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/eventDate"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#9d9d9d" />
+
+    <TextView
+        android:id="@+id/myEventCategorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/event_category"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/eventCategorie"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#9d9d9d" />
+
+    <TextView
+        android:id="@+id/myEventDeelnemers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/event_attenders"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/eventParticipants"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#9d9d9d" />
+
+    <TextView
+        android:id="@+id/myEventBeschrijving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/event_desc"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/eventDetails"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#009619"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:gravity="center"
+        android:text="@string/editEventB"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/verwijder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#e90e20"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:gravity="center"
+        android:text="Verwijderen"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

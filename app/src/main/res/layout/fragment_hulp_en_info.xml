@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.gebruiker.sportapp.Homepage.hulpEnInfo"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/take7"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/enrollEvent"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/enrollEventDes"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/createEvent"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/createEventDes"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/coupon"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/couponDes"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/failEnrollEvent"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/failEnrollEventDes"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/diff"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/diffDes"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/contact"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/half_overlay"
+        android:drawable="@drawable/eng"
+        android:width="40dp"
+        android:height="10dp"
+        android:left="30dp"
+        android:right="2dp"
+        />
+
+</layer-list>

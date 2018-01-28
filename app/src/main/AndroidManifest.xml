@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gebruiker.sportapp">
+
+    <!--Nodig voor internet en het ophalen en lezen van externe opslag.-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logo"
+        android:label="NW Beweegt"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/roundlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Beginscherm.login"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Beginscherm.registration"
+            android:label="Registratie"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".Homepage.Instellingen.preferences"
+            android:label="Vrijetijdsbestedingen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Beginscherm.ResetPage"
+            android:label="Wachtwoord vergeten"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Homepage.GPS"
+            android:label="@string/title_activity_gps"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".Evenementen.AddEvent"
+            android:label="@string/titleEvent"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Homepage.MainActivity"
+            android:label="NW Beweegt"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Homepage.Instellingen.Coupons.stepPopUp"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Evenementen.EventDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+        <activity android:name=".Homepage.Instellingen.Coupons.stepPopUp2" />
+        <activity android:name=".Homepage.Instellingen.Coupons.stepPopUp3" />
+        <activity android:name=".Homepage.hulpEnInfo" />
+        <activity android:name=".Evenementen.MyEventDetails" />
+        <activity android:name=".Evenementen.EditEvent"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+        tools:context="com.example.gebruiker.sportapp.com.example.gebruiker.Events.EditEvent">
+
+        <EditText
+            android:id="@+id/naamEdit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="fonts/Roboto-Regular.tff"
+            android:hint="@string/eventName" />
+
+        <EditText
+            android:id="@+id/adresEdit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="fonts/Roboto-Regular.tff"
+            android:hint="@string/adres" />
+
+        <EditText
+            android:id="@+id/descriptionEdit"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="fonts/Roboto-Regular.tff"
+            android:hint="@string/description" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="fonts/Roboto-Regular.tff"
+            android:gravity="center"
+            android:text="@string/date"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <DatePicker
+            android:id="@+id/simpleDatePickerEdit"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="#000"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="fonts/Roboto-Regular.tff"
+            android:gravity="center"
+            android:text="@string/startTime"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TimePicker
+            android:id="@+id/timeSetBeginEdit"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="#000"
+            android:timePickerMode="spinner" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="fonts/Roboto-Regular.tff"
+            android:gravity="center"
+            android:text="@string/endTime"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TimePicker
+            android:id="@+id/timeSetEndEdit"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:timePickerMode="spinner" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="fonts/Roboto-Regular.tff"
+            android:gravity="center"
+            android:text="@string/categorie"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/categoriesEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="fonts/Roboto-Regular.tff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="fonts/Roboto-Regular.tff"
+            android:gravity="center"
+            android:text="@string/participants"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+
+        <NumberPicker
+            android:id="@+id/Aantal_deelnemersEdit"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="150dp"
+            android:fontFamily="fonts/Roboto-Regular.tff"/>
+
+        <Button
+            android:id="@+id/bewerk"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.2"
+            android:background="@color/wallet_holo_blue_light"
+            android:gravity="center"
+            android:text="@string/editEventB"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+

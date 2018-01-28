@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/take6"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="120dp"
+        android:layout_weight="0.15"
+        android:background="@drawable/border_buttons"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:hint="@string/emailadress"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#aaaaaa"
+        android:textCursorDrawable="@null"
+        android:textSize="14sp" />
+
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.15"
+        android:background="@drawable/border_buttons"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#aaaaaa"
+        android:textCursorDrawable="@null"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/loginNormal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/loginbutton"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/wrongPassword"
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="1dp"
+        android:clickable="true"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/loginHint"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#afb9ff"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="15dp"
+        android:background="#868686" />
+
+
+    <Button
+        android:id="@+id/loginGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="0.10"
+        android:background="@drawable/bordergoogle"
+        android:drawableLeft="@drawable/googleicon"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/loginGoogle"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/loginGuest"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="0.10"
+        android:background="@drawable/borderguest"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/loginGuest"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/noAccount"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="1dp"
+        android:clickable="true"
+        android:fontFamily="fonts/Roboto-Regular.ttf"
+        android:text="@string/createAccount"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#afb9ff"
+        android:textSize="14sp" />
+
+</LinearLayout>

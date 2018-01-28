@@ -1,0 +1,183 @@
+    <resources>
+
+        <!-- MainActivity Strings -->
+        <string name="nav_home">Thuisscherm</string>
+        <string name="nav_events">Evenementen</string>
+        <string name="nav_settings">Instellingen</string>
+        <string name="nav_faq">FAQ</string>
+        <string name="nav_map">Kaart</string>
+        <string name="logout">Uitloggen</string>
+        <string name="logoutMes">Weet je zeker dat je wilt uitloggen?</string>
+        <string name="noMes">Nee</string>
+        <string name="yesMes">Ja</string>
+        <string name="nav_profile">Profiel</string>
+        <string name="nav_myEvents">Mijn evenementen</string>
+        <string name="nav_logout">Uitloggen</string>
+        <string name="nav_info_Home">Info over thuispagina</string>
+        <string name="nav_help_info">Hulp en Info</string>
+        <string name="nav_InfoHome">Wat laat de homepage mij zien?</string>
+        <string name="navInfoMes">In de homepage worden evenementen van vandaag laten zien." +
+                    " Deze evenementen hebben ook betrekking met je gekozen vrijetijdsbestedingen. \n" +
+                    "Wilt u meer evenementen zien? Kies dan Evenementen in het menu.</string>
+        <string name="nextMes">Volgende</string>
+        <string name="navInfoMes2">Zie je iets dat je interesseert? Klik dan op die evenement " +
+                            "om meer te weten!</string>
+        <string name="ackMes">Upload succesvol</string>
+        <string name="ok">Ok</string>
+        <string name="uploadMes">Uploaden...</string>
+        <string name="uploadSuc">Upload succesvol</string>
+
+        <!-- login strings -->
+        <string name="conFail">Connectie mislukt</string>
+        <string name="loginFail">Login mislukt</string>
+        <string name="annLoginMes">Welkom bij de probeerversie! Hier wordt er niet opgeslagen, maak hiervoor een account aan.</string>
+        <string name="login">Aanmelden</string>
+        <string name="loginHint">Kunt u zich niet aanmelden?</string>
+        <string name="loginGoogle">Login met Google</string>
+        <string name="loginGuest">Probeer als gast</string>
+        <string name="createAccount">Maak nieuw account aan</string>
+
+        <!-- registration -->
+        <string name="registratie">Registratie</string>
+        <string name="username">Gebruikersnaam</string>
+        <string name="emailadress">Emailadres</string>
+        <string name="password">Wachtwoord</string>
+        <string name="passwordAck">Wachtwoord Bevestigen</string>
+        <string name="confirm">Aanmaken</string>
+        <string name="returnB">Terug naar login scherm</string>
+
+        <!-- reset page -->
+        <string name="passwordReset">Wachtwoord resetten</string>
+        <string name="passwordResetB">Vraag wachtwoord reset aan</string>
+
+        <!-- help&info -->
+        <string name="enrollEvent">Hoe kan ik mij inschrijven voor een evenement?</string>
+        <string name="enrollEventDes">Klik op een evenement die je aanspreekt op de homepagina, map of evenementenpagina.</string>
+        <string name="createEvent">Hoe maak ik een evenement aan?</string>
+        <string name="createEventDes">Er is een + icoon rechtsonder op de homepage en de evenementen pagina. Ook kun je evenementen aanmaken op de kaart.</string>
+        <string name="coupon">Hoe werken de kortingsbonnen?</string>
+        <string name="couponDes">Na een bepaald aantal stappen ontvang je kortingsbonnen. Deze zijn afkomstig van willekeurige sportwinkels. Op vertoon van je kortingsbon aan de winkel, krijg je korting op je product.</string>
+        <string name="failEnrollEvent">Waarom lukt het niet om in te schrijven? </string>
+        <string name="failEnrollEventDes">Helaas, het evenement zit al vol. Is dit niet het geval, check dan je internetverbinding. </string>
+        <string name="diff">Wat is het verschil tussen evenementen op de homepagina, evenementen pagina en de kaart? </string>
+        <string name="diffDes">De homepagina laat de evenementen van die dag zien. De evenementen pagina laat alle evenementen zien en de kaart laat alle evenementen in de buurt zien. </string>
+        <string name="contact">Staat je vraag er niet tussen? Neem contact met ons op: www.boot5site.wordpress.com</string>
+
+        <!-- profiel -->
+        <string name="profileCoupon">Op vertoon aan de kassa krijg je korting op je producten.</string>
+        <string name="delete">Verwijderen</string>
+
+        <!-- add events -->
+        <string name="eventName">Evenement naam</string>
+        <string name="adres">Adres</string>
+        <string name="eventDescripion">Evenement beschrijving</string>
+        <string name="description">Korte beschrijving</string>
+        <string name="date">Datum</string>
+        <string name="startTime">Starttijd</string>
+        <string name="endTime">Eindtijd</string>
+        <string name="categorie">Categorie</string>
+        <string name="participants">Deelnemers</string>
+        <string name="addEventB">Voeg evenement toe</string>
+        <string name="addressError">Ongeldig adres</string>
+        <string name="eventSuccess">Event aangemaakt</string>
+        <string name="registrationError">Vul alle velden in</string>
+
+        <!-- edit events -->
+        <string name="editEventB">Bewerk</string>
+        <string name="editEvent">Bezig met event bewerken</string>
+        <string name="eventEditSuccess">Event succesvol bewerkt</string>
+
+        <!-- gps -->
+        <string name="stepsMade">Stappen gezet: </string>
+        <string name="returnHome">Terug naar homepage</string>
+
+        <!-- eventAdapter -->
+        <string name="eventFull">Evenement is vol</string>
+        <string name="eventAlmostFull">Evenement is bijna vol</string>
+
+        <!-- eventDetails -->
+        <string name="eventAdres">Adres:</string>
+        <string name="time">Tijd:</string>
+        <string name="eventDate">Datum:</string>
+
+        <string name="eventCategorie">Categorie:</string>
+        <string name="eventParticipants">Deelnemers:</string>
+        <string name="eventDetails">Beschrijving:</string>
+        <string name="enroll">Inschrijven</string>
+        <string name="enrollQuest">Weet je zeker dat je wilt inschrijven voor dit evenement?</string>
+        <string name="yes">Ja</string>
+        <string name="no">Nee</string>
+        <string name="enrollSuccess">Succesvol ingeschreven</string>
+
+        <string name="couponPopup">Gefeliciteerd! je hebt een kortingsbon verdiend. Ga naar je profiel om het te bekijken.</string>
+        <string name="coupons">Op vertoon aan de kassa krijg je korting op je producten. Behaalde kortingsbonnen:</string>
+
+        <string name="deleteEvent">Verwijderen</string>
+        <string name="deleteEventQuest">Weet je zeker dat je dit evenement wilt verwijderen?</string>
+
+        <!-- settings screen -->
+        <string name="selectLang">Selecteer taal</string>
+        <string name="saveSettings">Instellingen Opslaan</string>
+        <string name="saveSuccess">Instellingen opgeslagen</string>
+        <string name="sportFail">Kies minstens 1 sport</string>
+        <string name="basketbal">Basketbal</string>
+        <string name="boksen">Boksen</string>
+        <string name="gym">Gymnastiek</string>
+        <string name="hardlopen">Hardlopen</string>
+        <string name="hockey">Hockey</string>
+        <string name="rugby">Rugby</string>
+        <string name="tennis">Tennis</string>
+        <string name="voetbal">Voetbal</string>
+        <string name="volleybal">Volleybal</string>
+        <string name="eng">ENG</string>
+        <string name="nl">NL</string>
+
+        <string-array name="Categorie">
+            <item>Basketbal</item>
+            <item>Boksen</item>
+            <item>Gymnastiek</item>
+            <item>Hardlopen</item>
+            <item>Hockey</item>
+            <item>Rugby</item>
+            <item>Tennis</item>
+            <item>Voetbal</item>
+            <item>Volleybal</item>
+        </string-array>
+
+
+        <string name="app_name">SportApp</string>
+        <string name="google">Log in met Google</string>
+
+        <string name="title_activity_gps">Map</string>
+
+        <string name="explanationReset">Weet je je wachtwoord echt niet meer? Dan kunt u hier een wachtwoord reset aanvragen. Vul hier je emailadres in en wij sturen direct een mailtje terug.</string>
+        <string name="title_activity_home">Home</string>
+
+        <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+        <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+        <string name="action_settings">Instellingen</string>
+        <string name="titleAlertDeleteAcc">Account definitief verwijderen</string>
+        <string name="msgAlertDeleteAcc">Al je gegevens en je account zal verloren gaan. Weet je het zeker?</string>
+        <string name="thankyouToast">Jammer dat je vertrekt! In ieder geval bedankt voor het gebruiken van de app!</string>
+        <string name="welcomeToast">Welkom!</string>
+        <string name="failedLoginToast">Inloggen mislukt, check je gegevens!</string>
+        <string name="failedAnonLogin">Anoniem inloggen is niet mogelijk, probeer het later nog eens.</string>
+        <string name="forgottenEmailToast">Vergeet je emailadres niet!</string>
+        <string name="forgottenPasswordToast">Vergeet je wachtwoord niet!</string>
+        <string name="diffPasswordToast">Wachtwoorden komen niet overeen</string>
+        <string name="charPasswordToast">Wachtwoord moet minimaal 6 tekens bevatten</string>
+        <string name="charUsernameToast">Gebruikersnaam moet minimaal 6 en maximaal 20 tekens bevatten</string>
+        <string name="forgottenUsernameToast">Vergeet je gebruikersnaam niet!</string>
+        <string name="registeringToast">Bezig met registreren…</string>
+        <string name="succeededRegToast">Registration Gelukt</string>
+        <string name="failedRegToast">Oh nee, registratie is mislukt</string>
+        <string name="sentPasswResetToast">Wachtwoord reset verstuurd naar je email</string>
+        <string name="failedResetToast">Verzenden mislukt, check je emailadres!</string>
+        <string name="title_activity_main">MainActivity</string>
+        <string name="titleEvent">Evenement aanmaken</string>
+            <string name="edit_title">Bewerken</string>
+            <string name="edit_message">Weet je zeker dat je dit evenement wilt bewerken?</string>
+        <string name="loginMes">Bezig met inloggen</string>
+
+    </resources>
